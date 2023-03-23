@@ -1,0 +1,73 @@
+.displayCard-container {
+  height: auto;
+  margin: 3vh;
+}
+.displayCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin:5vh;
+
+  &__img-container {
+    height: 50vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vh 1vh;
+    grid-template-areas:
+      "grid1 grid2"
+      "grid1 grid3";
+  }
+
+  &__grid1 {
+    grid-area: grid1;
+    overflow: hidden;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+
+  }
+  &__grid2 {
+    grid-area: grid2;
+    overflow: hidden;
+    border-top-right-radius: 5vh;
+
+  }
+  &__grid3 {
+    grid-area: grid3;
+    overflow: hidden;
+    border-bottom-right-radius: 5vh;
+
+  }
+
+  &__img-1 {
+    height: 100%;
+    width: auto;
+  }
+  &__img-2 {
+    height: 100%;
+    width: auto;
+  }
+  &__img-3 {
+    height: 100%;
+    width: auto;
+  }
+  &__content-container {
+  }
+  &__content-top {
+  }
+  &__name {
+  }
+  &__content-middle {
+  }
+  &__cost {
+  }
+  &__location {
+  }
+  &__content-bottom {
+  }
+  &__website {
+  }
+}
