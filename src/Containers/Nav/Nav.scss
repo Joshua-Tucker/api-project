@@ -1,0 +1,81 @@
+  .nav-container {
+    min-height: 100vh;
+    height: auto;
+    width: 35vw;
+  }
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__img-container {
+      margin-top: 5vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 28vh;
+      width: 20vw;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    &__img {
+      height: 120%;
+    }
+    &__user-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 2vh;
+      text-align: center;
+    }
+    &__filter-title{
+      margin-top: 6vh;
+
+    }
+    &__search-container {
+      padding: 5vh 0vh;
+    }
+
+    &__filter-container {
+      padding-bottom: 25vh;
+    }
+    &__filter-general{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &__filter-cost{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &__filter-transfer{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &__filter-area{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    &__utils-container {
+      padding-bottom: 5vh;
+      display: flex;flex-wrap: wrap;
+
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+

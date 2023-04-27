@@ -1,0 +1,22 @@
+
+.checkbox {
+  // border: 2px solid black;
+  // border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.25vh;
+  border: 5px solid black;
+  border-radius: 1vh;
+  width:8vw;
+  height: 10vh;
+  text-align: center;
+  font-size: small;  
+ 
+}
+.checkbox-box{
+height:3vh;
+width:3vh;
+}
+

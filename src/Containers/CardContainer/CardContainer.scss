@@ -1,0 +1,14 @@
+  .cardContainer {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height:100vh;
+  }
+
+  .active{
+    opacity:20%
+    }
+

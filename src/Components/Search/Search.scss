@@ -1,0 +1,20 @@
+
+
+.searchBar{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:7vh;
+    width:30vh;
+    // border:5px solid $colorThree;
+    border-radius: 1vh;
+&__title{
+    font-size: medium;
+
+}
+
+&__input{
+    width:80%;
+}
+}
